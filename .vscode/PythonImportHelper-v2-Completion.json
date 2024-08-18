@@ -178,5 +178,32 @@
         "peekOfCode": "output = find_kth_largest(input_var, k)\nprint(f'The {k}-th largest unique element is: {output}')",
         "detail": "@0_leeet_code _probelem_solution.python_program_5",
         "documentation": {}
+    },
+    {
+        "label": "are_anagrams",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_8",
+        "description": "@0_leeet_code _probelem_solution.python_program_8",
+        "peekOfCode": "def are_anagrams(s1, s2):\n    # Check if the lengths of the two strings are the same\n    if len(s1) != len(s2):\n        return False\n    # Initialize dictionaries to store character counts\n    count1 = {}\n    count2 = {}\n    # Count the characters in s1\n    for char in s1:\n        if char in count1:",
+        "detail": "@0_leeet_code _probelem_solution.python_program_8",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_8",
+        "description": "@0_leeet_code _probelem_solution.python_program_8",
+        "peekOfCode": "s1 = \"listen\"\ns2 = \"silent\"\nif are_anagrams(s1, s2):\n    print(\"it's anagram\")\nelse:\n    print(\"no\")",
+        "detail": "@0_leeet_code _probelem_solution.python_program_8",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_8",
+        "description": "@0_leeet_code _probelem_solution.python_program_8",
+        "peekOfCode": "s2 = \"silent\"\nif are_anagrams(s1, s2):\n    print(\"it's anagram\")\nelse:\n    print(\"no\")",
+        "detail": "@0_leeet_code _probelem_solution.python_program_8",
+        "documentation": {}
     }
 ]
