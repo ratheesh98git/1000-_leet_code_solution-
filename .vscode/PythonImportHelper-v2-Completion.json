@@ -45,6 +45,33 @@
         "documentation": {}
     },
     {
+        "label": "count",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_10",
+        "description": "@0_leeet_code _probelem_solution.python_program_10",
+        "peekOfCode": "def count(s):\n    var=\"aeiou\"\n    return sum(1 for char in s   if char in var)\nprint(count(\"ratheesh\"))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_10",
+        "documentation": {}
+    },
+    {
+        "label": "fib_onic",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_11",
+        "description": "@0_leeet_code _probelem_solution.python_program_11",
+        "peekOfCode": "def fib_onic(n):\n    if n==0:\n        return 1\n    else:\n        return n*fib_onic(n-1)\nd=fib_onic(5)\nprint(\"this is fibonaic\",d)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_11",
+        "documentation": {}
+    },
+    {
+        "label": "fibo",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_12",
+        "description": "@0_leeet_code _probelem_solution.python_program_12",
+        "peekOfCode": "def fibo(var):\n    fib=[0,1]\n    for  item in range(2,var):\n       fib.append(fib[-1]+fib[-2])\n    return  fib[:var]\nprint(fibo(7))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_12",
+        "documentation": {}
+    },
+    {
         "label": "find_largest_number",
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_2",
@@ -204,6 +231,15 @@
         "description": "@0_leeet_code _probelem_solution.python_program_8",
         "peekOfCode": "s2 = \"silent\"\nif are_anagrams(s1, s2):\n    print(\"it's anagram\")\nelse:\n    print(\"no\")",
         "detail": "@0_leeet_code _probelem_solution.python_program_8",
+        "documentation": {}
+    },
+    {
+        "label": "pal",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_9",
+        "description": "@0_leeet_code _probelem_solution.python_program_9",
+        "peekOfCode": "def pal(s1):\n    return s1==s1[::-1]\nprint(pal(\"radar\"))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_9",
         "documentation": {}
     }
 ]
