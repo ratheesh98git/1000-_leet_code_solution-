@@ -72,6 +72,55 @@
         "documentation": {}
     },
     {
+        "label": "remove_duplicate",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_13",
+        "description": "@0_leeet_code _probelem_solution.python_program_13",
+        "peekOfCode": "def remove_duplicate(nums):\n    is_nums=[]\n    for items in nums:\n        is_dupicate=False\n        for  fin in is_nums:\n         if items==fin:\n            is_dupicate= True\n            break\n        if not is_dupicate:\n           is_nums.append(items)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_13",
+        "documentation": {}
+    },
+    {
+        "label": "merge_sorted_list",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_14",
+        "description": "@0_leeet_code _probelem_solution.python_program_14",
+        "peekOfCode": "def merge_sorted_list(list1,list2):\n    sorted_array=[]\n    i=j=0\n    while i<len(list1) and j<len(list2):\n        if list1[i]<=list2[j]:\n            sorted_array.append(list1[i])\n            i+=1\n        else:\n            sorted_array.append(list2[j])\n            j+=1",
+        "detail": "@0_leeet_code _probelem_solution.python_program_14",
+        "documentation": {}
+    },
+    {
+        "label": {
+            "name": "",
+            "kind": 2,
+            "peekOfCode": "def  gcd(a,b):\n    while b!=0:\n        remainder=a%b\n        a=b\n        b=remainder\n    return a\nprint(gcd(48,18))"
+        },
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_15",
+        "description": "@0_leeet_code _probelem_solution.python_program_15",
+        "peekOfCode": "def  gcd(a,b):\n    while b!=0:\n        remainder=a%b\n        a=b\n        b=remainder\n    return a\nprint(gcd(48,18))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_15",
+        "documentation": {}
+    },
+    {
+        "label": "find_missing_number",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_16",
+        "description": "@0_leeet_code _probelem_solution.python_program_16",
+        "peekOfCode": "def find_missing_number(nums):\n    n=len(nums)+1\n    exceped=n*(n+1)//2\n    actual=0\n    for items in nums:\n        actual+=items\n    return exceped-actual\nprint(find_missing_number([1,2,3,4,5,6,7,8,10]))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_16",
+        "documentation": {}
+    },
+    {
+        "label": "flatten",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_17",
+        "description": "@0_leeet_code _probelem_solution.python_program_17",
+        "peekOfCode": "def flatten(flatte):\n    flatten_list=[]\n    for nums in flatte:\n        if isinstance(nums,list):\n            flatten_list.extend(flatten(nums))\n        else:\n            flatten_list.append(nums)\n    return flatten_list\nprint(flatten([3,2,[1,2]]))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_17",
+        "documentation": {}
+    },
+    {
         "label": "find_largest_number",
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_2",
