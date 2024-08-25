@@ -157,6 +157,42 @@
         "documentation": {}
     },
     {
+        "label": "linear_search",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_24",
+        "description": "@0_leeet_code _probelem_solution.python_program_24",
+        "peekOfCode": "def linear_search(values,target):\n    lent=len(values)\n    for i in range(0,lent):\n        if values[i]==target:\n            return i\n    return -1\nindex=linear_search([1,2,100,4,5,10,12,10],13)\nprint(f\"this is index {index}\")",
+        "detail": "@0_leeet_code _probelem_solution.python_program_24",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_27",
+        "description": "@0_leeet_code _probelem_solution.python_program_27",
+        "peekOfCode": "user = input(\"Enter the string: \")\n# String to store the result\nnew_string = \"\"\n# Tuple of vowels to check against\nvowels = (\"a\", \"e\", \"i\", \"o\", \"u\", \"A\", \"E\", \"I\", \"O\", \"U\")\n# Iterate over each character in the input string\nfor char in user:\n    # Check if the character is not a vowel\n    if char not in vowels:\n        # Append the character to the new string if it's not a vowel",
+        "detail": "@0_leeet_code _probelem_solution.python_program_27",
+        "documentation": {}
+    },
+    {
+        "label": "new_string",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_27",
+        "description": "@0_leeet_code _probelem_solution.python_program_27",
+        "peekOfCode": "new_string = \"\"\n# Tuple of vowels to check against\nvowels = (\"a\", \"e\", \"i\", \"o\", \"u\", \"A\", \"E\", \"I\", \"O\", \"U\")\n# Iterate over each character in the input string\nfor char in user:\n    # Check if the character is not a vowel\n    if char not in vowels:\n        # Append the character to the new string if it's not a vowel\n        new_string += char\n# Print the result",
+        "detail": "@0_leeet_code _probelem_solution.python_program_27",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_27",
+        "description": "@0_leeet_code _probelem_solution.python_program_27",
+        "peekOfCode": "vowels = (\"a\", \"e\", \"i\", \"o\", \"u\", \"A\", \"E\", \"I\", \"O\", \"U\")\n# Iterate over each character in the input string\nfor char in user:\n    # Check if the character is not a vowel\n    if char not in vowels:\n        # Append the character to the new string if it's not a vowel\n        new_string += char\n# Print the result\nprint(\"String without vowels:\", new_string)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_27",
+        "documentation": {}
+    },
+    {
         "label": "find_top_k_largest",
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_3",

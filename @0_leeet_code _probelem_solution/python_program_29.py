@@ -1,1 +1,13 @@
-#this is leet code program python_program 	 29.py 
+#28 write a program for  simple alphabetic pyramid
+
+
+
+rows=int(input("enter the  number of input"))
+
+
+for num in range(1,rows+1):
+         
+         for j in range(num):
+             print(num,end=" ")
+             
+         print()    
