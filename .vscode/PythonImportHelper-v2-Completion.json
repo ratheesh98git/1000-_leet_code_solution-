@@ -265,6 +265,33 @@
         "documentation": {}
     },
     {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_37",
+        "description": "@0_leeet_code _probelem_solution.python_program_37",
+        "peekOfCode": "arr = [2, 11, 13, 8, 6, 7, 8]\n# Initialize the size of the array\nn = len(arr)\nindex = 0  # Start from the first element\n# Iterate while there are elements left to process\nwhile index < n:\n    # Shift elements to the left to \"remove\" the current element\n    for i in range(index, n - 1):\n        arr[i] = arr[i + 1]\n    n -= 1  # Decrease the array size as we \"remove\" an element",
+        "detail": "@0_leeet_code _probelem_solution.python_program_37",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_37",
+        "description": "@0_leeet_code _probelem_solution.python_program_37",
+        "peekOfCode": "n = len(arr)\nindex = 0  # Start from the first element\n# Iterate while there are elements left to process\nwhile index < n:\n    # Shift elements to the left to \"remove\" the current element\n    for i in range(index, n - 1):\n        arr[i] = arr[i + 1]\n    n -= 1  # Decrease the array size as we \"remove\" an element\n    # Check if there's an element to print\n    if index < n:",
+        "detail": "@0_leeet_code _probelem_solution.python_program_37",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_37",
+        "description": "@0_leeet_code _probelem_solution.python_program_37",
+        "peekOfCode": "index = 0  # Start from the first element\n# Iterate while there are elements left to process\nwhile index < n:\n    # Shift elements to the left to \"remove\" the current element\n    for i in range(index, n - 1):\n        arr[i] = arr[i + 1]\n    n -= 1  # Decrease the array size as we \"remove\" an element\n    # Check if there's an element to print\n    if index < n:\n        print(arr[index])",
+        "detail": "@0_leeet_code _probelem_solution.python_program_37",
+        "documentation": {}
+    },
+    {
         "label": "find_top_k_largest",
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_4",
