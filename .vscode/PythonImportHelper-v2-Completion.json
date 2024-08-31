@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "decimal",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "decimal",
+        "description": "decimal",
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -76,7 +85,7 @@
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_12",
         "description": "@0_leeet_code _probelem_solution.python_program_12",
-        "peekOfCode": "def fibo(var):\n    fib=[0,1]\n    for  item in range(2,var):\n       fib.append(fib[-1]+fib[-2])\n    return  fib[:var]\nprint(fibo(7))",
+        "peekOfCode": "def fibo(value):\n    fib=[0,1]\n    for i in range(0,value):\n        fib.append(fib[-1]+fib[-2])\n    return fib[: value]\nprint(fibo(5))",
         "detail": "@0_leeet_code _probelem_solution.python_program_12",
         "documentation": {}
     },
@@ -325,6 +334,33 @@
         "description": "@0_leeet_code _probelem_solution.python_program_4",
         "peekOfCode": "output = find_top_k_largest(input_var, k)\nprint(f'The top {k} largest unique elements are: {output}')",
         "detail": "@0_leeet_code _probelem_solution.python_program_4",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_41",
+        "description": "@0_leeet_code _probelem_solution.python_program_41",
+        "peekOfCode": "def reverse(value):\n    return  value[::-1]\nvalue=\"ratheesh\"\nprint(reverse(value))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_41",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_47",
+        "description": "@0_leeet_code _probelem_solution.python_program_47",
+        "peekOfCode": "def values(value):\n    data=len(value)//2\n    return value[data]\nlists = [10, 20, 30, 40, 50, 60, 70]\nprint(values(lists))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_47",
+        "documentation": {}
+    },
+    {
+        "label": "lists",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_47",
+        "description": "@0_leeet_code _probelem_solution.python_program_47",
+        "peekOfCode": "lists = [10, 20, 30, 40, 50, 60, 70]\nprint(values(lists))",
+        "detail": "@0_leeet_code _probelem_solution.python_program_47",
         "documentation": {}
     },
     {
