@@ -400,6 +400,33 @@
         "documentation": {}
     },
     {
+        "label": "compond_inte",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_52",
+        "description": "@0_leeet_code _probelem_solution.python_program_52",
+        "peekOfCode": "def compond_inte(principal,rate,time):\n    Amount=principal*(pow((1+rate/100),time))\n    CI=Amount-principal\n    print(\"the is compound interest\",CI)\ncompond_inte(10000, 10.25, 5)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_52",
+        "documentation": {}
+    },
+    {
+        "label": "find_array",
+        "kind": 2,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_53",
+        "description": "@0_leeet_code _probelem_solution.python_program_53",
+        "peekOfCode": "def find_array(value):\n    sums=0\n    for i in value:\n        sums=sums+i\n    return sums\narr = [1, 2, 3]\ndata=find_array(arr)\nprint(data)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_53",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "@0_leeet_code _probelem_solution.python_program_53",
+        "description": "@0_leeet_code _probelem_solution.python_program_53",
+        "peekOfCode": "arr = [1, 2, 3]\ndata=find_array(arr)\nprint(data)",
+        "detail": "@0_leeet_code _probelem_solution.python_program_53",
+        "documentation": {}
+    },
+    {
         "label": "are_anagrams",
         "kind": 2,
         "importPath": "@0_leeet_code _probelem_solution.python_program_8",
